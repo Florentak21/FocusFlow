@@ -1,0 +1,114 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    color: #007bff;
+  }
+  
+  /* Styles du formulaire Formulaire */
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  #todo-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .btn-primary {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles pour les Filtres */
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }
+  
+  .btn-filter {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-filter.active {
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  .btn-filter:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Styles pour la Liste des tâches */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .todo-item button {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .todo-item button:hover {
+    color: #a71d2a;
+  }
