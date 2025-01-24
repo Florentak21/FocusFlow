@@ -32,7 +32,7 @@ function addTodo(title) {
     </label>
     <button class="delete-todo"><i class="fas fa-trash"></i></button>
   `;
-  todoList.appendChild(todoItem);
+  todoList.prepend(todoItem);
 }
 
 /**
